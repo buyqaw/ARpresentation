@@ -1,0 +1,43 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "tech.buyqaw"
+    },
+    "cordova-plugin-ble-peripheral": {
+      "PACKAGE_NAME": "tech.buyqaw"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "tech.buyqaw"
+    },
+    "cordova-plugin-console": {
+      "PACKAGE_NAME": "tech.buyqaw"
+    },
+    "cordova-plugin-contacts": {
+      "PACKAGE_NAME": "tech.buyqaw"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "tech.buyqaw"
+    },
+    "cordova-plugin-device-motion": {
+      "PACKAGE_NAME": "tech.buyqaw"
+    },
+    "cordova-plugin-device-orientation": {
+      "PACKAGE_NAME": "tech.buyqaw"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "tech.buyqaw"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "tech.buyqaw"
+    }
+  }
+}

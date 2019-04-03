@@ -1,0 +1,73 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "tech.buyqaw"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "tech.buyqaw"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "tech.buyqaw"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "tech.buyqaw"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "tech.buyqaw"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "tech.buyqaw"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "tech.buyqaw"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "tech.buyqaw"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "tech.buyqaw"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "tech.buyqaw"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "tech.buyqaw"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "tech.buyqaw"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "tech.buyqaw"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "tech.buyqaw"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "tech.buyqaw"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "tech.buyqaw"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "tech.buyqaw"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "tech.buyqaw"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "tech.buyqaw"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "tech.buyqaw"
+        }
+    }
+}

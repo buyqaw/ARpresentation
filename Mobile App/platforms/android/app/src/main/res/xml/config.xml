@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="tech.buyqaw.mobileapp" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Battery">
+        <param name="android-package" value="org.apache.cordova.batterystatus.BatteryListener" />
+    </feature>
+    <feature name="Camera">
+        <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+    </feature>
+    <feature name="Contacts">
+        <param name="android-package" value="org.apache.cordova.contacts.ContactManager" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="Accelerometer">
+        <param name="android-package" value="org.apache.cordova.devicemotion.AccelListener" />
+    </feature>
+    <feature name="Compass">
+        <param name="android-package" value="org.apache.cordova.deviceorientation.CompassListener" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-navigation href="cdvfile:*" />
+    <feature name="BLEPeripheral">
+        <param name="android-package" value="com.megster.cordova.ble.peripheral.BLEPeripheralPlugin" />
+    </feature>
+    <name>BuyQawHub</name>
+    <description>
+        This application implements BuyQaw HUB system.
+    </description>
+    <author href="http://buyqaw.tech">
+        Bauyrzhan Ospan
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://buyqaw.tech" />
+    <allow-intent href="https://buyqaw.tech" />
+    <allow-intent href="tel:+77081993506" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:ceo@buyqaw.tech" />
+    <allow-intent href="geo:Astana" />
+    <splash src="splash.png" />
+    <icon src="icon.png" />
+    <allow-intent href="market:*" />
+    <preference name="loglevel" value="DEBUG" />
+</widget>

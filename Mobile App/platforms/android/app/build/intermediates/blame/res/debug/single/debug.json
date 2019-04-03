@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/naboo/Projects/BuyQaw mobile app/BuyQaw/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi_screen.png.flat",
+        "source": "/Users/naboo/Projects/BuyQaw mobile app/BuyQaw/platforms/android/app/src/main/res/drawable-mdpi/screen.png"
+    },
+    {
+        "merged": "/Users/naboo/Projects/BuyQaw mobile app/BuyQaw/platforms/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_icon.png.flat",
+        "source": "/Users/naboo/Projects/BuyQaw mobile app/BuyQaw/platforms/android/app/src/main/res/mipmap-mdpi/icon.png"
+    },
+    {
+        "merged": "/Users/naboo/Projects/BuyQaw mobile app/BuyQaw/platforms/android/app/build/intermediates/res/merged/debug/xml_config.xml.flat",
+        "source": "/Users/naboo/Projects/BuyQaw mobile app/BuyQaw/platforms/android/app/src/main/res/xml/config.xml"
+    }
+]
