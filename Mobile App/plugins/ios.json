@@ -1,0 +1,74 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "tech.buyqaw.mobileapp"
+    },
+    "cordova-plugin-ble-peripheral": {
+      "PACKAGE_NAME": "tech.buyqaw.mobileapp"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "tech.buyqaw.mobileapp"
+    },
+    "cordova-plugin-contacts": {
+      "PACKAGE_NAME": "tech.buyqaw.mobileapp"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "tech.buyqaw.mobileapp"
+    },
+    "cordova-plugin-device-motion": {
+      "PACKAGE_NAME": "tech.buyqaw.mobileapp"
+    },
+    "cordova-plugin-device-orientation": {
+      "PACKAGE_NAME": "tech.buyqaw.mobileapp"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "tech.buyqaw.mobileapp"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "tech.buyqaw.mobileapp"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "tech.buyqaw.mobileapp"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "tech.buyqaw.mobileapp"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "tech.buyqaw.mobileapp"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "tech.buyqaw.mobileapp"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "tech.buyqaw.mobileapp"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "tech.buyqaw.mobileapp"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "tech.buyqaw.mobileapp"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "tech.buyqaw.mobileapp"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "tech.buyqaw.mobileapp"
+    },
+    "cordova-plugin-media": {
+      "KEEP_AVAUDIOSESSION_ALWAYS_ACTIVE": "NO",
+      "PACKAGE_NAME": "tech.buyqaw.mobileapp"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "tech.buyqaw.mobileapp"
+    }
+  }
+}

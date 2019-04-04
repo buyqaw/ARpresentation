@@ -53,16 +53,11 @@ class MyClientCallback : public BLEClientCallbacks {
 };
 
 bool connectToServer() {
-    Serial.print("Forming a connection to ");
-    Serial.println(myDevice->getAddress().toString().c_str());
+    Serial.println("Forming a connection to ");
 
     BLEClient*  pClient  = BLEDevice::createClient();
 
     Serial.println(" - Created client");
-    int RSSIL = myDevice->getRSSI();
-    if (RSSIL <= -60) {
-      ESP.restart();
-    }
 
     pClient->setClientCallbacks(new MyClientCallback());
 
@@ -106,8 +101,6 @@ bool connectToServer() {
     pRemoteCharacteristic->writeValue(BLEDevice::getAddress().toString().c_str(), BLEDevice::getAddress().toString().length());
 
     show_display("OPENED");
-    Serial.println(" - Found our RSSI level");
-
     delay(2000);
     ESP.restart();
 }
@@ -125,11 +118,16 @@ class MyAdvertisedDeviceCallbacks: public BLEAdvertisedDeviceCallbacks {
     // We have found a device, let us now see if it contains the service we are looking for.
     if (advertisedDevice.haveServiceUUID() && advertisedDevice.isAdvertisingService(serviceUUID)) {
 
-      BLEDevice::getScan()->stop();
-      myDevice = new BLEAdvertisedDevice(advertisedDevice);
-      doConnect = true;
-      doScan = true;
-
+          int RSSIL = advertisedDevice.getRSSI();
+          Serial.print("RSSI is: ");
+          Serial.println(RSSIL);
+          if (RSSIL >= -60) {
+            Serial.println("Our device is near");
+            BLEDevice::getScan()->stop();
+            myDevice = new BLEAdvertisedDevice(advertisedDevice);
+            doConnect = true;
+            doScan = true;
+            }
     } // Found our server
   } // onResult
 }; // MyAdvertisedDeviceCallbacks
@@ -146,11 +144,8 @@ void setup() {
   // scan to run for 5 seconds.
   BLEScan* pBLEScan = BLEDevice::getScan();
   pBLEScan->setAdvertisedDeviceCallbacks(new MyAdvertisedDeviceCallbacks());
-  pBLEScan->setInterval(1349);
-  pBLEScan->setWindow(449);
   pBLEScan->setActiveScan(true);
   pBLEScan->start(5, false);
-
 } // End of setup.
 
 // This is the Arduino main loop function.
@@ -171,10 +166,7 @@ void loop() {
 
   // If we are connected to a peer BLE Server, update the characteristic each time we are reached
   // with the current time since boot.
-  Serial.println("########################################");
   Serial.println("New scan: ");
     BLEDevice::getScan()->start(0);  // this is just eample to start scan after disconnect, most likely there is better way to do it in arduino
-
-
-  delay(1000); // Delay a second between loops.
+  delay(100); // Delay a second between loops.
 } // End of loop

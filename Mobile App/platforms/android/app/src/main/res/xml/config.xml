@@ -26,6 +26,15 @@
         <param name="onload" value="true" />
     </feature>
     <allow-navigation href="cdvfile:*" />
+    <feature name="Capture">
+        <param name="android-package" value="org.apache.cordova.mediacapture.Capture" />
+    </feature>
+    <feature name="FileTransfer">
+        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
+    </feature>
+    <feature name="Media">
+        <param name="android-package" value="org.apache.cordova.media.AudioHandler" />
+    </feature>
     <feature name="BLEPeripheral">
         <param name="android-package" value="com.megster.cordova.ble.peripheral.BLEPeripheralPlugin" />
     </feature>

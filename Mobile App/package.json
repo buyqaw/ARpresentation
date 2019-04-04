@@ -1,0 +1,17 @@
+{
+  "name": "tech.buyqaw.mobileapp",
+  "version": "0.0.1",
+  "displayName": "BuyQawHub",
+  "cordova": {
+    "platforms": [
+      "ios"
+    ],
+    "plugins": {
+      "cordova-plugin-console": {}
+    }
+  },
+  "dependencies": {
+    "cordova-ios": "~4.5.5",
+    "cordova-plugin-console": "1.1.0"
+  }
+}

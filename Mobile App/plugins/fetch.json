@@ -18,7 +18,7 @@
   "cordova-plugin-media-capture": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-media-capture@~1.2.0"
+      "id": "cordova-plugin-media-capture@3.0.2"
     },
     "is_top_level": true,
     "variables": {}
@@ -29,14 +29,6 @@
       "id": "cordova-plugin-file"
     },
     "is_top_level": false,
-    "variables": {}
-  },
-  "cordova-plugin-console": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-console@~1.0.2"
-    },
-    "is_top_level": true,
     "variables": {}
   },
   "cordova-plugin-contacts": {
@@ -82,7 +74,7 @@
   "cordova-plugin-file-transfer": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-file-transfer@~1.5.0"
+      "id": "cordova-plugin-file-transfer"
     },
     "is_top_level": true,
     "variables": {}
@@ -163,6 +155,14 @@
     "source": {
       "type": "registry",
       "id": "cordova-plugin-ble-peripheral"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-console": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-console"
     },
     "is_top_level": true,
     "variables": {}

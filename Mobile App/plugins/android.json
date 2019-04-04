@@ -16,9 +16,6 @@
     "cordova-plugin-camera": {
       "PACKAGE_NAME": "tech.buyqaw"
     },
-    "cordova-plugin-console": {
-      "PACKAGE_NAME": "tech.buyqaw"
-    },
     "cordova-plugin-contacts": {
       "PACKAGE_NAME": "tech.buyqaw"
     },
@@ -33,6 +30,18 @@
     },
     "cordova-plugin-dialogs": {
       "PACKAGE_NAME": "tech.buyqaw"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "tech.buyqaw.mobileapp"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "tech.buyqaw.mobileapp"
+    },
+    "cordova-plugin-media": {
+      "PACKAGE_NAME": "tech.buyqaw.mobileapp"
+    },
+    "cordova-plugin-console": {
+      "PACKAGE_NAME": "tech.buyqaw.mobileapp"
     }
   },
   "dependent_plugins": {
